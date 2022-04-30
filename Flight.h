@@ -2,15 +2,13 @@
     ==================================================
     Flights Management
     ==================================================
-    Name   : Nozhin Azarpanah
-    Date   : February 17, 2022
 */
 
 #ifndef SDDS_FLIGHT_H 
 #define SDDS_FLIGHT_H
 
-namespace sdds {
-
+namespace sdds 
+{
     const int Boen747Capacity = 388;
     const int FuelTankCapacity = 238840;
 
