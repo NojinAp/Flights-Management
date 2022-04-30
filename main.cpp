@@ -2,12 +2,12 @@
     ==================================================
     Flights Management
     ==================================================
-    Name   : Nozhin Azarpanah
-    Date   : February 17, 2022
 */
 
 #include <iostream>
+
 #include "Flight.h"
+
 using namespace std;
 using namespace sdds;
 
@@ -37,7 +37,6 @@ int main()
 
     displayFlights(flights, 7);
 
-
     cout << " Total passengers in " << (const char*)(flights[2]) << " and " << (const char*)(flights[4]) << " is:  " << (total = flights[2] + flights[4]) << endl;
 
     cout << " Total fuel in " << (const char*)(flights[2]) << " and " << (const char*)(flights[4]) << " is:  " << double(flights[2]) + double(flights[4]) << endl;
@@ -63,11 +62,7 @@ int main()
 
     flights[2] >> flights[3];
 
-
-
     displayFlights(flights, 7);
-
-
 
     flights[6] += 160000.50;
     flights[4] -= 15000.50;
